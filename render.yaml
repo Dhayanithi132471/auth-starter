@@ -31,7 +31,6 @@ services:
     plan: free
     dockerfilePath: ./database/Dockerfile
     dockerContext: .
-    disk:
       name: auth-starter-db-data
       mountPath: /var/lib/postgresql/data
       sizeGB: 1
